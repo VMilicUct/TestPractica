@@ -18,57 +18,41 @@
                 <h6>Pinned</h6>
             </div>
             </li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="#" @click="menu=1">
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="#Proyectos" @click="menu=1">
                 <svg class="stroke-icon">
                 <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
                 </svg>
                 <svg class="fill-icon">
                 <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
-                </svg><span>Dashsdsdasdrd</span></a></li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
+                </svg><span>Proyectos</span></a></li>
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="#Dashboard" @click="menu=2">
                 <svg class="stroke-icon">
-                <use href="../assets/svg/icon-sprite.svg#stroke-starter-kit"></use>
+                <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
                 </svg>
                 <svg class="fill-icon">
-                <use href="../assets/svg/icon-sprite.svg#fill-starter-kit"></use>
-                </svg><span>Casos de Prueba</span></a>
-            <ul class="sidebar-submenu">
-                <li><a class="submenu-title" href="#">color version<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
-                <ul class="nav-sub-childmenu submenu-content">
-                    <li><a href="index.html">Layout Light</a></li>
-                    <li><a href="layout-dark.html">Layout Dark</a></li>
-                </ul>
-                </li>
-                <li>     <a class="submenu-title" href="#">Page layout<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
-                <ul class="nav-sub-childmenu submenu-content">
-                    <li><a href="boxed.html">Boxed</a></li>
-                    <li><a href="layout-rtl.html">RTL</a></li>
-                </ul>
-                </li>
-                <li><a href="hide-on-scroll.html">Hide menu on Scroll</a></li>
-                <li>     <a class="submenu-title" href="#">Footers<span class="sub-arrow"><i class="fa fa-chevron-right"></i></span></a>
-                <ul class="nav-sub-childmenu submenu-content">
-                    <li><a href="footer-light.html">Footer Light</a></li>
-                    <li><a href="footer-dark.html">Footer Dark</a></li>
-                    <li><a href="footer-fixed.html">Footer Fixed</a></li>
-                </ul>
-                </li>
-            </ul>
-            </li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="https://support.pixelstrap.com/portal/en/signin" target="_blank">
-                <svg class="stroke-icon">
-                <use href="../assets/svg/icon-sprite.svg#stroke-social"></use>
-                </svg>
-                <svg class="fill-icon">
-                <use href="../assets/svg/icon-sprite.svg#fill-social"></use>
-                </svg><span>Ejecución de Pruebas</span></a></li>
-            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="https://docs.pixelstrap.net/mofi/document/" target="_blank">
-                <svg class="stroke-icon">
-                <use href="../assets/svg/icon-sprite.svg#stroke-form"></use>
-                </svg>
-                <svg class="fill-icon">
-                <use href="../assets/svg/icon-sprite.svg#fill-form"></use>
-                </svg><span>CRMOL                                    </span></a></li>
+                <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
+                </svg><span>Dashboard</span></a></li>
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="#PlanDePruebas" @click="menu=3">
+            <svg class="stroke-icon">
+            <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
+            </svg>
+            <svg class="fill-icon">
+            <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
+            </svg><span>PPCAL</span></a></li>
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="#Revision" @click="menu=4">
+            <svg class="stroke-icon">
+            <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
+            </svg>
+            <svg class="fill-icon">
+            <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
+            </svg><span>Revisión</span></a></li>
+            <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="#Reportes" @click="menu=5">
+            <svg class="stroke-icon">
+            <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
+            </svg>
+            <svg class="fill-icon">
+            <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
+            </svg><span>Reportes</span></a></li>
         </ul>
         </div>
         <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
