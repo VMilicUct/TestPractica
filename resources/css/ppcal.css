@@ -1,0 +1,41 @@
+.modal-xl-custom {
+    max-width: 95%; /* Ajusta el tamaño del modal a 95% del ancho de la pantalla */
+}
+.right-panel {
+    border-left: 1px solid #dee2e6;
+    padding-left: 20px;
+}
+
+.modal-content {
+    resize: both; /* Permite el redimensionamiento */
+    overflow: auto; /* Permite ver el contenido cuando el tamaño cambia */
+}
+
+
+.step-container {
+    display: flex;
+    justify-content: space-between;
+}
+.input-group-sql {
+    display: flex;
+    align-items: center;
+}
+.input-group-sql button {
+    margin-left: 10px;
+}
+
+.main-content {
+    margin-left: 250px; /* Asegúrate de que el contenido principal se ajuste al tamaño del sidebar */
+    padding: 20px;
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section {
+    border-bottom: 1px solid #000; /* Línea de separación gris claro */
+    padding-bottom: 20px; /* Espacio antes de la línea */
+    margin-bottom: 20px; /* Espacio después de la línea */
+}
